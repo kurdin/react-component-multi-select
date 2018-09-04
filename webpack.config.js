@@ -1,7 +1,6 @@
 module.exports = {
   externals: {
-    react: 'react',
-    'react/addons': 'react'
+    react: 'React'
   },
   debug: false,
   module: {

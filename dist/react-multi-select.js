@@ -442,7 +442,7 @@
 /* 1 */
 /***/ (function(module, exports) {
 
-	module.exports = react;
+	module.exports = React;
 
 /***/ }),
 /* 2 */
