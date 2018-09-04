@@ -1,0 +1,38 @@
+{
+  "name": "react-component-multi-select",
+  "version": "4.1.0",
+  "description": "An accessible multi select component for React 16",
+  "main": "dist/select-multi-box.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack src/react-multi-select.js dist/react-multi-select.js && NODE_ENV=production webpack src/react-multi-select.js dist/react-multi-select.min.js --optimize-minimize"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kurdin/react-component-multi-select.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "select"
+  ],
+  "author": "Sergey Kurdin and Brent Burgoyne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurdin/react-component-multi-select/issues"
+  },
+  "homepage": "https://github.com/kurdin/react-component-multi-select",
+  "devDependencies": {
+    "react": "^16.4.2",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.4.2",
+    "react-shallow-testutils": "^2.0.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.9.0"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3"
+  }
+}
